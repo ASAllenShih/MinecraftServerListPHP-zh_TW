@@ -239,7 +239,7 @@ PHP;
 							");
 
 							/* Display a success message */
-							echo '<div class="alert alert-success"><strong>Installation completed!</strong>Now delete install.php!</div>';
+							echo '<div class="alert alert-success"><strong>安裝完成！</strong>現在刪除 install.php ！</div>';
 						} else {
 
 							/* Display all the errors if needed */
