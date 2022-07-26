@@ -13,7 +13,7 @@ $errors = array();
 	</head>
 	<body>
 		<div class="container">
-			<h2>Installation</h2>
+			<h2>安裝程式</h2>
 
 			<div class="panel panel-default">
 				<div class="panel-body">
@@ -251,45 +251,45 @@ PHP;
 						}
 					} else {
 					?>
-					<div class="alert alert-info">Make sure file <u><strong>core/database/connect.php</strong></u> has CHMOD 777 !</div>
+					<div class="alert alert-info">確保檔案 <u><strong>core/database/connect.php</strong></u> 有 CHMOD 777 !</div>
 
 					<form action="" method="post" role="form">
 						<div class="form-group">
-							<label> Database server </label>
+							<label> 資料庫伺服器 </label>
 							<input type="text" class="form-control" name="database_server" value="localhost" />
 						</div>
 						<div class="form-group">
-							<label> User </label>
+							<label> 資料庫使用者 </label>
 							<input type="text" class="form-control" name="database_user" />
 						</div>
 						<div class="form-group">
-							<label> Password </label>
+							<label> 資料庫密碼 </label>
 							<input type="text" class="form-control" name="database_password" />
 						</div>
 						<div class="form-group">
-							<label> Database name </label>
+							<label> 資料庫名稱 </label>
 							<input type="text" class="form-control" name="database_name" />
 						</div>
 
 						<div class="form-group">
-							<label> URL </label>
+							<label> 網址 </label>
 							<p class="help-block">e.g: http://domain.com/directory/</p>
 							<input type="text" class="form-control" name="settings_url" />
 						</div>
 						<div class="form-group">
-							<label> Title </label>
+							<label> 標題 </label>
 							<input type="text" class="form-control" name="settings_title" />
 						</div>
 
 						<div class="form-group">
-							<button type="submit" name="submit" class="btn btn-primary col-lg-4">Done</button>
+							<button type="submit" name="submit" class="btn btn-primary col-lg-4">完成</button>
 						</div>
 					</form>
 					<?php } ?>
 				</div>
 
 				<div class="panel-footer">
-					<span>Developed by: <a href="dev.mine-craft.net">Flajakay</a></span>
+					<span>正體中文化由 <a href="https://allen.asallenshih.ml">AS_Allen_Shih</a><a href="https://www.kipper.ml">Spooky Kipper</a> 製作 最初由 <a href="dev.mine-craft.net">Flajakay</a> 製作</span>
 				</div>
 
 			</div>
