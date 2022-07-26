@@ -21,7 +21,7 @@ $query 		= new StdClass;
 
 /* Set the default timezone if its not set in the ini file */
 if (!date_default_timezone_get()) 
-	date_default_timezone_set('America/New_York');
+	date_default_timezone_set('Asia/Taipei');
 
 /* If user is logged in get his data */
 if(User::logged_in()) {
