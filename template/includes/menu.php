@@ -1,19 +1,22 @@
 <div class="navbar navbar-default navbar-static-top <?php if(!isset($_GET['page'])) echo 'navbar-no-margin'; ?>" role="navigation">
 	<div class="container">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<div class="navbar-header" style="display: inline-block;margin: 0 auto;">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" style="position: absolute; right: 0">
 				<span class="sr-only">Toggle navigation</span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<!-- Uncomment Below for Text-->
-			<!--<a class="navbar-brand hidden-sm" href="index"><?php echo $settings->title; ?></a>-->
-			<!--Below for Logo, put image in template/images/logo.png-->
-			<a class="hidden-sm" href="index"><img src="template/images/logo.png" alt="Place image in template/images/logo.png" style="max-width: 20%;margin-top: 3%;margin-right: 0;float: left;"></a>
-
+            <div style="display: inline-block;text-align: center;">
+			    <a href="index" style="text-align: center">
+                <!--Img Title -->
+                <!--<?php echo $settings->title; ?>-->
+                <!--Logo Title-->
+                 <img src="template/images/logo.png" class="navbar-img" alt="Place image in /template/images/logo.png" style="position: absolute;">
+                </a>
+            </div>
 		</div>
-		<div class="navbar-collapse collapse">
+		<div class="navbar-collapse collapse" style="border: 0;border-width : 0;border-style: solid;">
 			<ul class="nav navbar-nav" style="float: right;margin: 7.5px -15px">
 				<li><a href="servers"><?php echo $language['menu']['home']; ?></a></li>
 				<?php if($settings->premium) { ?>
@@ -83,3 +86,4 @@
 		</div>
 	</div>
 </div>
+
