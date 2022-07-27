@@ -73,7 +73,7 @@ $language['errors']['marked_fields_empty']				= "*マークがついてるフィ
 $language['errors']['minimum_days']						= "日数は、最低日数以上である必要があります";
 $language['errors']['maximum_days']						= "日数は、最大日数以下である必要があります";
 $language['errors']['votifier_vote']					= "votifierがおかしいです";
-$language['errors']['forbidden']                        = "403 禁止の"  
+$language['errors']['forbidden']                        = "403 禁止の";  
 
 
 $language['server']['status_online']					= "オンライン";
