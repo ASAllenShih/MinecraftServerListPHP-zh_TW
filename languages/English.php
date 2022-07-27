@@ -73,6 +73,8 @@ $language['errors']['marked_fields_empty']				= "Marked fields are required to b
 $language['errors']['minimum_days']						= "The amount of days must be greater than minimum amount of days.";
 $language['errors']['maximum_days']						= "The amouns of days must be not greater than maximum amount of days.";
 $language['errors']['votifier_vote']					= "Something wrong with votifier!";
+$language['errors']['forbidden']                        = "403 Forbidden"  
+
 
 $language['server']['status_online']					= "Online";
 $language['server']['status_offline']					= "Offline";
