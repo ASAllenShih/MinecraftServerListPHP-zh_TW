@@ -12,7 +12,7 @@
                 <!--Img Title -->
                 <!--<?php echo $settings->title; ?>-->
                 <!--Logo Title-->
-                 <img src="template/images/logo.png" class="navbar-img" alt="Place image in /template/images/logo.png" style="position: absolute;">
+                 <img src="template/images/logo.png" class="navbar-img" alt="Place image in /template/images/logo.png">
                 </a>
             </div>
 		</div>
