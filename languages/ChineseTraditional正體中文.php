@@ -73,6 +73,7 @@ $language['errors']['marked_fields_empty']				= "標記部分必須填寫";
 $language['errors']['minimum_days']						= "天數必須大於最小天數";
 $language['errors']['maximum_days']						= "天數不得大於最大天數";
 $language['errors']['votifier_vote']					= "Votifier出問題";
+$language['errors']['forbidden']                        = "403權限不足"  
 
 $language['server']['status_online']					= "在線";
 $language['server']['status_offline']					= "離線";
@@ -216,7 +217,7 @@ $language['misc']['offline_servers'] = "所有離線伺服器";
 $language['misc']['active_servers'] = "所有作用中伺服器";
 $language['misc']['private_servers'] = "所有私人伺服器";
 $language['misc']['language'] = "<strong> 語言Language： </strong>";
-$language['misc']['index_description'] = "<strong>Minecraft Java伺服器列表</strong><br><strong></strong>";
+$language['misc']['index_description'] = "<strong>Minecraft Java伺服器列表</strong><br><strong>由 <a href='https://spookymc.xyz' target='_blank'>SpookyMC</a>創建</strong>";
 $language['misc']['index_description2'] = "<strong></strong>";
 $language['misc']['contact'] = "聯絡";
 $language['misc']['privacy-policy'] = "隱私政策";
