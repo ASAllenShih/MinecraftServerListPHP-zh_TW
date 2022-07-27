@@ -10,7 +10,7 @@
 			<!-- Uncomment Below for Text-->
 			<!--<a class="navbar-brand hidden-sm" href="index"><?php echo $settings->title; ?></a>-->
 			<!--Below for Logo, put image in template/images/logo.png-->
-			<a class="hidden-sm" href="index"><img src="template/images/logo.png" style="max-width: 20%;margin-top: 3%;margin-right: 0;float: left;"></a>
+			<a class="hidden-sm" href="index"><img src="template/images/logo.png" alt="Place image in template/images/logo.png"style="max-width: 20%;margin-top: 3%;margin-right: 0;float: left;"></a>
 
 		</div>
 		<div class="navbar-collapse collapse">
