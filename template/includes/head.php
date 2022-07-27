@@ -20,7 +20,10 @@
 
     .navbar-img {
        padding: 0;
-       width: 10%;
+       width: 20%;
+       margin-top: 3%;
+       position: relative;
+       float: left;
     }
 
 
@@ -28,6 +31,9 @@
         .navbar-img {
             padding-top: 0.5%;
             width: 20%;
+            position: absolute;
+            margin-top: 0;
+            left: 0;
        }
      }
      </style>
