@@ -27,7 +27,7 @@
     }
 
 
-     @media only screen and (max-width:480px) {
+     @media only screen and (max-width:1060px) {
         .navbar-img {
             padding-top: 0.5%;
             width: 20%;
