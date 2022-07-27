@@ -16,6 +16,22 @@
 	<link href="template/css/font-awesome.min.css" rel="stylesheet" media="screen">
 	<link href="template/css/jodit.css" rel="stylesheet" media="screen">
 	<link href="template/css/tagmanager.css" rel="stylesheet" media="screen">
+    <style>
+
+    .navbar-img {
+       padding: 0;
+       width: 10%;
+    }
+
+
+     @media only screen and (max-width:480px) {
+        .navbar-img {
+            padding-top: 0.5%;
+            width: 20%;
+       }
+     }
+     </style>
+
 
 	<script src="template/js/typeahead.min.js"></script>
 	<script src="template/js/tagmanager.js"></script>
