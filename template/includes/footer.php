@@ -13,4 +13,4 @@ foreach($languages as $language_name) {
 
 <br />
 
-<?php echo 'Copyright &copy; ' . date("Y") . ' ' . $settings->title . '. All rights reserved. Powered by <a href="http://dev.mine-craft.net">Flajakay</a>'; ?>
+<?php echo 'Copyright &copy; ' . date("Y") . ' ' . $settings->title . '. All rights reserved. Powered by <a href="https://github.com/Flajakay/minecraftserverlistphp/" target="_blank">Flajakay</a>. Chinese Translation by <a href="https://github.com/SpookyKipper/zhtw-PHPMinecraftServerList" target="_blank">Spooky Kipper</a> and <a href="https://github.com/ASAllenShih/MinecraftServerListPHP-zh_TW" target="_blank">ASAllenShih</a>.<br> Disclaimer: We are not affiliated with Minecraft or Mojang AB.'; ?>
