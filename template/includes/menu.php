@@ -7,10 +7,14 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand hidden-sm" href="index"><?php echo $settings->title; ?></a>
+			<!-- Uncomment Below for Text-->
+			<!--<a class="navbar-brand hidden-sm" href="index"><?php echo $settings->title; ?></a>-->
+			<!--Below for Logo, put image in template/images/logo.png-->
+			<a class="hidden-sm" href="index"><img src="template/images/logo.png" style="max-width: 20%;margin-top: 3%;margin-right: 0;float: left;"></a>
+
 		</div>
 		<div class="navbar-collapse collapse">
-			<ul class="nav navbar-nav">
+			<ul class="nav navbar-nav" style="float: right;margin: 7.5px -15px">
 				<li><a href="servers"><?php echo $language['menu']['home']; ?></a></li>
 				<?php if($settings->premium) { ?>
 				<li><a href="purchase-highlight"><?php echo $language['menu']['purchase_highlight']; ?></a></li>
