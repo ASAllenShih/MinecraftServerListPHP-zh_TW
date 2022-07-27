@@ -17,6 +17,7 @@ Options -Indexes
 	RewriteRule ^reset-password/(.*)/(.*)$ index.php?page=resetpassword&email=$1&lost_password_code=$2 
 	RewriteRule ^activate/(.*)/(.*)$ index.php?page=activate&email=$1&activation_code=$2
 	RewriteRule ^not-found$ index.php?page=notfound
+	RewriteRule ^forbidden$ index.php?page=forbidden
 	RewriteRule ^purchase-highlight$ index.php?page=purchase_highlight
 
 	RewriteRule ^terms-of-service$ index.php?page=tos
@@ -84,7 +85,7 @@ Options -Indexes
 ErrorDocument 404 /not-found
 ErrorDocument 400 /not-found
 ErrorDocument 401 /not-found
-ErrorDocument 403 /not-found
+ErrorDocument 403 /forbidden
 ErrorDocument 405 /not-found
 ErrorDocument 409 /not-found
 ErrorDocument 413 /not-found
